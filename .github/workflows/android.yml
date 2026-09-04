@@ -31,7 +31,7 @@ jobs:
         path: build
         
     - name: tar the fu.ker
-      run: tar -czvf fa.tar.gz build/outputs/apk
+      run: tar -czvf fa.tar.gz /home/runner/work/SimpleUsbTerminal/SimpleUsbTerminal/app/build
       
     - name: upload2
       uses: actions/upload-artifact@v7
